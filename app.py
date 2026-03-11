@@ -5,5 +5,5 @@ app = Flask(__name__)
 def home():
   return "Merhaba,Buluttan Selam!"
 @app.route('/about')
-def about:
-return"Hakkında sayfası"
+def about():
+return "Hakkında sayfası"
